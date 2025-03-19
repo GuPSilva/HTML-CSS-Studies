@@ -1,0 +1,95 @@
+/*#caixa {
+    width: 300px;
+    height: 300px;
+    background: #b9c941;
+    padding: 50px; /*padding soma 50px em todos os lados, somando junto ao width e o height
+    box-sizing: border-box; /*essa propriedade segue a altura e largura, sem somar com o padding
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    
+    /*border radius arredonda as bordas
+    -webkit-border-radius: 20px 90px;---- webkit é um prefixo para um browsers mais antigos suportar a formatação
+    -moz-border-radius: 20px 90px;---- moz é um prefixo para um browsers mais antigos suportar a formatação
+    border-radius: 20px 90px; 
+}
+
+#caixa2 {
+    width: 300px;
+    height: 300px;
+    background: #b9c941;
+    border radius arredonda as bordas
+    -webkit-border-radius: 20px 90px;---- webkit é um prefixo para um browsers mais antigos suportar a formatação
+    -moz-border-radius: 20px 90px;---- moz é um prefixo para um browsers mais antigos suportar a formatação
+    border-radius: 20px 90px; 
+}
+
+#caixa {
+    width: 300px;
+    height: 300px;
+    background: url(../imagens/camera.png);
+    background: linear-gradient(to left, red, green); === degrade
+    background: radial-gradient(red, green); ==== degrade circular
+}
+
+#caixa h1 {
+    background: rgba(255, 255, 255, 0.5); rgb define a cor, rgba define a cor e a opacidade da cor, dando uma "transparencia"
+}
+
+
+#caixa {
+    width: 300px;
+    height: 300px;
+    padding: 8px;
+    margin: 20px;
+    background: #008670;
+    box-shadow: 20px 20px 10px 20px black; /*aplica uma sombra a caixa (horiz, vert, opac, espalha) = (20px 20px 10px 20px)
+}
+
+
+#caixa h1 {
+    color: white;
+    text-shadow: 20px 20px 5px rgba(0, 0, 0, 0.6); /*aplica uma sombra ao texto (horiz, vert, opac) = (20px 20px 5px)
+}
+
+@keyframes animacao-caixa {
+    from {
+        background: red;
+        border-radius: 0px;
+        top: 0;
+        left: 0;
+    }
+    to {
+        background: green;
+        border-radius: 300px;
+        top: 200px;
+        left: 200px;
+    }
+} 
+
+#caixa {
+    width: 300px;
+    height: 300px;
+    background: red;
+    position: relative;
+    /*
+    animation-name: animacao-caixa; aplica a animaçao a partir do nome
+    animation-duration: 5s; aplica uma duração
+    animation-delay: 3s; aplica um delay para iniciar
+    animation-iteration-count: 2; aplica quantas vezes vai se repetir
+    animation-direction: alternate; aplica como a animaçao vai se direcionar (alternate inicia e na 2x volta ao estado padrao)
+    
+    animation: animacao-caixa 5s 3s 2 alternate; (nome da animacao - duraçao - delay - repetição - direçao)
+}*/
+
+#caixa {
+    width: 300px;
+    height: 300px;
+    background: orange;
+}
+
+#caixa:hover {
+    width: 400px;
+    background: yellow;
+    /*transition: width 3s, background 3s; */
+    transition: all 3s; /*aplica uma transição suave para o estado hover*/
+}
